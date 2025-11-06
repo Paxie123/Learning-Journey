@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Socket_learn\\SocketTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D790A6-3A17-4BFD-85EE-DCC3DE072FB8}|SocketTest\\SocketTest.vcxproj|Z:\\Socket_learn\\SocketTest\\SocketTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6D790A6-3A17-4BFD-85EE-DCC3DE072FB8}|SocketTest\\SocketTest.vcxproj|solutionrelative:SocketTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "Z:\\Socket_learn\\SocketTest\\SocketTest\\main.cpp",
+              "RelativeDocumentMoniker": "SocketTest\\main.cpp",
+              "ToolTip": "Z:\\Socket_learn\\SocketTest\\SocketTest\\main.cpp",
+              "RelativeToolTip": "SocketTest\\main.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-05T12:04:55.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

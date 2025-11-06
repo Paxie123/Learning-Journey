@@ -1,0 +1,5 @@
+﻿  main.cpp
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(30,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(50,12): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(77,14): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+  SocketTest.vcxproj -> Z:\Socket_learn\SocketTest\x64\Debug\SocketTest.exe

@@ -1,0 +1,6 @@
+﻿  main.cpp
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(19,12): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(45,2): error C2065: “socklen_t”: 未声明的标识符
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(45,12): error C2146: 语法错误: 缺少“;”(在标识符“len”的前面)
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(45,12): error C2065: “len”: 未声明的标识符
+Z:\Socket_learn\SocketTest\SocketTest\main.cpp(47,50): error C2065: “len”: 未声明的标识符
