@@ -40,7 +40,7 @@ void rbtree_left_rotate(rbtree *T, _rbtree_node* x){
     _rbtree_node *y = x->ready.right;
     x->ready.right = y->ready.left;
     if(y->ready.left!=T->nil){
-        x->ready.right = y->ready.left;
+       y->ready.left->ready.parent = x;
     }
     y->ready.parent = x->ready.parent;
     if(x==T->root){
@@ -122,13 +122,6 @@ void rbtree_insert_fixup(rbtree* T, _rbtree_node* z){
                 z->ready.parent->ready.color = BLACK;
                 z->ready.parent->ready.parent->ready.color = RED;
                 rbtree_right_rotate(T,z->ready.parent->ready.parent);
-            }
-        }else{
-            _rbtree_node *y = z->ready.parent->ready.left;
-            if(y->ready.color == RED){
-                z->ready.color = BLACK;
-                y->ready.color = BLACK;
-                z->ready.parent->ready.parent->ready.color = RED;
             }
         }
     }
