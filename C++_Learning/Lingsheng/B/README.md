@@ -25,7 +25,7 @@
 5、有K棵子树的分支节点则存在k-1个关键字，关键字按照递增顺序进行排序
 6、关键字数量满足ceil(M/2)-1 <= N <=M-1
 ```
-![alt text](image.png)
+![alt text](code/image.png)
 
 ## B树和B+树的区别
 ```
@@ -41,27 +41,27 @@ b+tree: 叶子节点存储数据，内节点索引用的
 
 ## B树添加26字母
 ### 难点1 节点满了之后要分叉，根节点为父节点，左边插入倒左子树，右边插入到右子树
-![alt text](image-1.png)
+![alt text](code/image-1.png)
 
 ### 难点2 子节点满了之后要分裂，把中间插入到父节点，另外子节点的两端变为父节点的两个子节点
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](code/image-2.png)
+![alt text](code/image-3.png)
 
 **先分裂再添加**
 
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](code/image-4.png)
+![alt text](code/image-5.png)
+![alt text](code/image-6.png)
+![alt text](code/image-7.png)
+![alt text](code/image-8.png)
+![alt text](code/image-9.png)
 
 ### 难点3 根节点变成5个后继续添加
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](code/image-10.png)
+![alt text](code/image-11.png)
 
 ## B树的删除
-![alt text](image-12.png)
+![alt text](code/image-12.png)
 
 ### 难点1 不能直接删除A，因为违背B树的性质：关键字数量大于等于(M/2)-1,上述是6阶，关键字数量最少为2
 ```
@@ -71,7 +71,7 @@ b+tree: 叶子节点存储数据，内节点索引用的
 再删除A
 为什么推下C，因为A是比C小，合并的是C两侧的子树
 ```
-![alt text](image-13.png)
+![alt text](code/image-13.png)
 
 ```
 情况2：删除B
@@ -80,14 +80,14 @@ b+tree: 叶子节点存储数据，内节点索引用的
 在什么时候借位：
 删除的结点的父节点只有最少个数的关键字的时候就需要借位
 ```
-![alt text](image-14.png)
+![alt text](code/image-14.png)
 
 ```
 情况3：删除E
 
 借位借不到就合并
 ```
-![alt text](image-15.png)
+![alt text](code/image-15.png)
 
 ## 之前删除的都是叶子节点，如果要删除内节点如何操作
 ```
